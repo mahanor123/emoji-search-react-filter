@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-group {
+  width: 1200px;
+  margin:auto;
+}
+.input{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px !important;
+  height:50px;
+}
+
+.items{
+  border-top: 1px solid gainsboro;
+  height: 50px;
+  /* positin: relative; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  padding-bottom: 20x;
+  padding-top: 10px;
+}
+
+items:hover{
+  background-color:lightgreen;
+}
+
+.emoji {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.component-header {
+  padding: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: #333;
+}
+
+a{
+  width: 16.1em;
+  height: 4em;
+  position: absolute;
+  top: 28px;
+  right: -10px;
+  font-size: 14px;
+  border-radius:50px ;
+  /* text-indent: -999999px; */
+  background-color:rgb(19, 26, 18);
+  transform: rotate(35deg);
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+/* .component-header img {
+  padding:5px;
+  height:30px;
+  width: 30px;
+} */
+
