@@ -49,12 +49,12 @@ a{
   top: 28px;
   right: -10px;
   font-size: 14px;
-  border-radius:50px ;
+  border-radius:5px ;
   /* text-indent: -999999px; */
   background-color:rgb(19, 26, 18);
   transform: rotate(35deg);
   text-align: center;
-  text-decoration: none;
+  text-decoration:none;
   
 }
 
