@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Data from './emojiList.json';
 
 
 class Filter extends Component {
@@ -16,6 +17,16 @@ class Filter extends Component {
 		});
 	}
   render() {
+  	
+  	const {search} = this.state;
+
+  	const SearchFilter = Data.filter( item => {
+  		if (item.title.toLowerCase().indexOf(search.toLowerCase()) !== -1)
+  			return true
+  		if (item.keywords.toLowerCase().indexOf(search.toLowerCase()) !== -1)
+  			return true
+  		return false
+  	})
   	
     return (
       <div>
@@ -42,6 +53,12 @@ class Filter extends Component {
 						</div>
 					</form>
 				</div>     
+	        {SearchFilter.slice(0,20).map(function(items, index){
+	  	 	return <div key={index} className="items">
+				 		<span className="emoji" >{items.symbol}</span>
+	  	 			<span className="emoji title">{items.title}</span>
+	  	 		   </div>
+	  	 	})}
       </div>
     );
   }
