@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mahanor123/emoji-search-react-filter/static/css/main.45f7468e.chunk.css",
+    "main.js": "/mahanor123/emoji-search-react-filter/static/js/main.7b179633.chunk.js",
+    "main.js.map": "/mahanor123/emoji-search-react-filter/static/js/main.7b179633.chunk.js.map",
+    "runtime-main.js": "/mahanor123/emoji-search-react-filter/static/js/runtime-main.386f95dd.js",
+    "runtime-main.js.map": "/mahanor123/emoji-search-react-filter/static/js/runtime-main.386f95dd.js.map",
+    "static/js/2.305360be.chunk.js": "/mahanor123/emoji-search-react-filter/static/js/2.305360be.chunk.js",
+    "static/js/2.305360be.chunk.js.map": "/mahanor123/emoji-search-react-filter/static/js/2.305360be.chunk.js.map",
+    "index.html": "/mahanor123/emoji-search-react-filter/index.html",
+    "precache-manifest.a5f1d9f0d925ce5d7c50c62348bedeb8.js": "/mahanor123/emoji-search-react-filter/precache-manifest.a5f1d9f0d925ce5d7c50c62348bedeb8.js",
+    "service-worker.js": "/mahanor123/emoji-search-react-filter/service-worker.js",
+    "static/css/main.45f7468e.chunk.css.map": "/mahanor123/emoji-search-react-filter/static/css/main.45f7468e.chunk.css.map",
+    "static/js/2.305360be.chunk.js.LICENSE": "/mahanor123/emoji-search-react-filter/static/js/2.305360be.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.386f95dd.js",
+    "static/js/2.305360be.chunk.js",
+    "static/css/main.45f7468e.chunk.css",
+    "static/js/main.7b179633.chunk.js"
+  ]
+}
